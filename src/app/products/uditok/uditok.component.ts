@@ -162,6 +162,86 @@ export class UditokComponent {
       darab: 1
     },
     {
+      id: 'arizona',
+      nev: 'Arizona Cherry Lime Rickey 650ml',
+      image: './assets/uditokImg/Arizona Cherry Lime Rickey 650ml.jpg',
+      leiras: 'Az Arizona Cherry Lime Rickey egy frissítő, enyhén savanykás cseresznye és lime ízű üdítőital, amely tökéletesen kiegyensúlyozza az édes és citrusos ízeket egy élénk és ínycsiklandó italban.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Frost Chillzicle 650ml',
+      image: './assets/uditokImg/Arizona Frost Chillzicle 650ml.jpg',
+      leiras: 'Az Arizona Frost Chillzicle egy hűsítő és frissítő üdítő, amely az élénk gyümölcsízeket és a jeges frissességet ötvözi, tökéletes választás a forró napokra.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Green Tea with Ginseng and Honey 650ml',
+      image: './assets/uditokImg/Arizona Green Tea with Ginseng and Honey 650ml.jpg',
+      leiras: 'Klasszikus zöld tea méz és ginzeng ízesítéssel, amely az Arizona legismertebb és legnépszerűbb terméke.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Arnold Palmer Half & Half Iced Tea Lemonade 650ml',
+      image: './assets/uditokImg/Arizona Arnold Palmer Half & Half Iced Tea Lemonade 650ml.jpg',
+      leiras: 'Fekete tea és limonádé keveréke, amely Arnold Palmer golfozó nevét viseli.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Mucho Mango 650ml',
+      image: './assets/uditokImg/Arizona Mucho Mango 650ml.jpg',
+      leiras: 'Intenzív mangó ízű gyümölcsital.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Watermelon 650ml',
+      image: './assets/uditokImg/Arizona Watermelon 650ml.jpg',
+      leiras: 'Frissítő görögdinnye ízű ital.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Fruit Punch 650ml',
+      image: './assets/uditokImg/Arizona Fruit Punch 650ml.jpg',
+      leiras: 'Többféle gyümölcs ízét ötvöző üdítőital.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Blueberry White Tea 500ml',
+      image: './assets/uditokImg/Arizona Blueberry White Tea 500ml.jpg',
+      leiras: 'Áfonyás fehér tea, amely kellemes gyümölcsös ízt kínál.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Pomegranate Green Tea 500ml',
+      image: './assets/uditokImg/Arizona Pomegranate Green Tea 500ml.jpg',
+      leiras: 'Gránátalmás zöld tea, amely ötvözi a zöld tea és a gránátalma jótékony hatásait.',
+      ar: 990,
+      darab: 1
+    },
+    {
+      id: 'arizona',
+      nev: 'Arizona Cowboy Cocktail Kiwi Strawberry 500ml',
+      image: './assets/uditokImg/Arizona Cowboy Cocktail Kiwi Strawberry 500ml.jpg',
+      leiras: 'Kivi és eper ízesítésű gyümölcskoktél.',
+      ar: 990,
+      darab: 1
+    },
+    {
       id: 'warheads',
       nev: 'WarHeads Sour Black Cherry Soda 355ml',
       image: './assets/uditokImg/WarHeads Sour Black Cherry Soda 355ml.jpg',
@@ -274,6 +354,30 @@ export class UditokComponent {
       darab: 1
     },
     {
+      id: 'fanta',
+      nev: 'Fanta Green Apple 185ml',
+      image: './assets/uditokImg/Fanta Green Apple 185ml.jpg',
+      leiras: 'A Fanta Green Apple egy élénk és frissítő zöldalma ízű szénsavas ital, amely édes és enyhén savanykás ízvilágával igazi üdítő élményt nyújt.',
+      ar: 1290,
+      darab: 1
+    },
+    {
+      id: 'fanta',
+      nev: 'Chinese Fanta White Peach 330ml',
+      image: './assets/uditokImg/Chinese Fanta White Peach 330ml.jpg',
+      leiras: 'A Chinese Fanta White Peach egy üdítően édes és zamatos fehér őszibarack ízű szénsavas ital, amely frissítően gyümölcsös élményt nyújt.',
+      ar: 790,
+      darab: 1
+    },
+    {
+      id: 'fanta',
+      nev: 'Fanta Lime 500ml',
+      image: './assets/uditokImg/Fanta Lime 500ml.jpg',
+      leiras: 'A Fanta Lime egy frissítően citrusos, élénk lime ízű szénsavas üdítőital, amely tökéletes egyensúlyt teremt az édes és savanykás ízek között.',
+      ar: 1280,
+      darab: 1
+    },
+    {
       id: 'skittles',
       nev: 'Skittles Drink Original 414ml',
       image: './assets/uditokImg/Skittles Drink Original 414ml.jpg',
@@ -306,38 +410,6 @@ export class UditokComponent {
       darab: 1
     },
     {
-      id: 'ghost',
-      nev: 'Ghost Hydration Drink Sour Patch Kids 500ml',
-      image: './assets/uditokImg/Ghost Hydration Drink Sour Patch Kids 500ml.jpg',
-      leiras: 'A Ghost Hydration Drink Sour Patch Kids egy egyedi, savanyú cukorkák által inspirált üdítőital, amely ötvözi a Sour Patch Kids cukorkák jellegzetes savanyú-édes ízprofilját egy frissítő és hidratáló formulával.',
-      ar: 2990,
-      darab: 1
-    },
-    {
-      id: 'fanta',
-      nev: 'Fanta Lime 500ml',
-      image: './assets/uditokImg/Fanta Lime 500ml.jpg',
-      leiras: 'A Fanta Lime egy frissítően citrusos, élénk lime ízű szénsavas üdítőital, amely tökéletes egyensúlyt teremt az édes és savanykás ízek között.',
-      ar: 1280,
-      darab: 1
-    },
-    {
-      id: 'fanta',
-      nev: 'Fanta Green Apple 185ml',
-      image: './assets/uditokImg/Fanta Green Apple 185ml.jpg',
-      leiras: 'A Fanta Green Apple egy élénk és frissítő zöldalma ízű szénsavas ital, amely édes és enyhén savanykás ízvilágával igazi üdítő élményt nyújt.',
-      ar: 1290,
-      darab: 1
-    },
-    {
-      id: 'fanta',
-      nev: 'Chinese Fanta White Peach 330ml',
-      image: './assets/uditokImg/Chinese Fanta White Peach 330ml.jpg',
-      leiras: 'A Chinese Fanta White Peach egy üdítően édes és zamatos fehér őszibarack ízű szénsavas ital, amely frissítően gyümölcsös élményt nyújt.',
-      ar: 790,
-      darab: 1
-    },
-    {
       id: 'skittles',
       nev: 'Skittles Tropical Liquid Water Enhancer 48ml',
       image: './assets/uditokImg/Skittles Tropical Liquid Water Enhancer 48ml.jpg',
@@ -349,7 +421,7 @@ export class UditokComponent {
       id: 'skittles',
       nev: 'Skittles Tropical Punch flavored drink powder, 6-pack',
       image: './assets/uditokImg/Skittles Tropical Punch flavored drink powder, 6-pack.jpg',
-      leiras: '',
+      leiras: 'A Skittles Tropical Punch trópusi puncs ízű italpor egy egzotikus gyümölcsök édes és frissítő ízét hozza el, könnyen elkészíthető, ízesített üdítő formájában.',
       ar: 1416,
       darab: 1
     },
@@ -362,83 +434,11 @@ export class UditokComponent {
       darab: 1
     },
     {
-      id: 'arizona',
-      nev: 'Arizona Cherry Lime Rickey 650ml',
-      image: './assets/uditokImg/Arizona Cherry Lime Rickey 650ml.jpg',
-      leiras: 'Az Arizona Cherry Lime Rickey egy frissítő, enyhén savanykás cseresznye és lime ízű üdítőital, amely tökéletesen kiegyensúlyozza az édes és citrusos ízeket egy élénk és ínycsiklandó italban.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Frost Chillzicle 650ml',
-      image: './assets/uditokImg/Arizona Frost Chillzicle 650ml.jpg',
-      leiras: 'Az Arizona Frost Chillzicle egy hűsítő és frissítő üdítő, amely az élénk gyümölcsízeket és a jeges frissességet ötvözi, tökéletes választás a forró napokra.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Green Tea with Ginseng and Honey 650ml',
-      image: './assets/uditokImg/Arizona Green Tea with Ginseng and Honey 650ml.jpg',
-      leiras: 'Klasszikus zöld tea méz és ginzeng ízesítéssel, amely az Arizona legismertebb és legnépszerűbb terméke.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Arnold Palmer Half & Half Iced Tea Lemonade 650ml',
-      image: './assets/uditokImg/Arizona Arnold Palmer Half & Half Iced Tea Lemonade 650ml.jpg',
-      leiras: 'Fekete tea és limonádé keveréke, amely Arnold Palmer golfozó nevét viseli.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Mucho Mango 650ml',
-      image: './assets/uditokImg/Arizona Mucho Mango 650ml.jpg',
-      leiras: 'Intenzív mangó ízű gyümölcsital.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Watermelon 650ml',
-      image: './assets/uditokImg/Arizona Watermelon 650ml.jpg',
-      leiras: 'Frissítő görögdinnye ízű ital.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Fruit Punch 650ml',
-      image: './assets/uditokImg/Arizona Fruit Punch 650ml.jpg',
-      leiras: 'Többféle gyümölcs ízét ötvöző üdítőital.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Blueberry White Tea 500ml',
-      image: './assets/uditokImg/Arizona Blueberry White Tea 500ml.jpg',
-      leiras: 'Áfonyás fehér tea, amely kellemes gyümölcsös ízt kínál.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Pomegranate Green Tea 500ml',
-      image: './assets/uditokImg/Arizona Pomegranate Green Tea 500ml.jpg',
-      leiras: 'Gránátalmás zöld tea, amely ötvözi a zöld tea és a gránátalma jótékony hatásait.',
-      ar: 990,
-      darab: 1
-    },
-    {
-      id: 'arizona',
-      nev: 'Arizona Cowboy Cocktail Kiwi Strawberry 500ml',
-      image: './assets/uditokImg/Arizona Cowboy Cocktail Kiwi Strawberry 500ml.jpg',
-      leiras: 'Kivi és eper ízesítésű gyümölcskoktél.',
-      ar: 990,
+      id: 'ghost',
+      nev: 'Ghost Hydration Drink Sour Patch Kids 500ml',
+      image: './assets/uditokImg/Ghost Hydration Drink Sour Patch Kids 500ml.jpg',
+      leiras: 'A Ghost Hydration Drink Sour Patch Kids egy egyedi, savanyú cukorkák által inspirált üdítőital, amely ötvözi a Sour Patch Kids cukorkák jellegzetes savanyú-édes ízprofilját egy frissítő és hidratáló formulával.',
+      ar: 2990,
       darab: 1
     },
     {

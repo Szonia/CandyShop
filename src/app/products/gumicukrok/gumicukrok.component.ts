@@ -364,7 +364,7 @@ export class GumicukrokComponent {
     {
       id: 'toxic',
       nev: 'Toxic Waste Atomic Bytes Sour Hard Candy 60g',
-      image: './assets/cukorImg/Toxic Waste Atomic Bytes Sour Hard Candy 60g.jpg',
+      image: './assets/cukorImg/Toxic Waste Atomic Bytes Sour Hard Candy 60g.jpeg',
       leiras: 'A Toxic Waste Atomic Bytes Sour Hard Candy egy extrém savanyú keménycukorka, amely öt különböző gyümölcsös ízben (alma, görögdinnye, sötét cseresznye, oregoni málna és citrom) kínál intenzív savanyú élményt, amelynek íze fokozatosan bontakozik ki a fogyasztás során.',
       ar: 590,
       darab: 1

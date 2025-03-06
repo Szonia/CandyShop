@@ -19,14 +19,6 @@ interface Chips {
 export class ChipsekComponent {
   chipsek: Chips[] = [
     {
-      id: 'cheetos',
-      nev: 'Cheetos Japan Steak Flavor Chips 90g',
-      image: './assets/chipsImg/Cheetos Japan Steak Flavor Chips 90g.jpg',
-      leiras: 'A Cheetos Japan Steak Flavor Chips egy különleges, japán steak ízvilágát idéző kukoricás snack, amely a hagyományos japán marhahús zamatos, fűszeres ízét kombinálja a Cheetos jellegzetes ropogós textúrájával.',
-      ar: 1690,
-      darab: 1
-    },
-    {
       id: 'pringles',
       nev: 'Pringles Texas BBQ Sauce 165g',
       image: './assets/chipsImg/Pringles Texas BBQ Sauce 165g.jpg',
@@ -230,6 +222,14 @@ export class ChipsekComponent {
       image: './assets/chipsImg/Cheetos Crunchy Cheddar Jalapeño Chips 226g.jpg',
       leiras: 'Tökéletes egyensúly a sajtos és csípős ízek között, intenzív jalapeño aromával.',
       ar: 1990,
+      darab: 1
+    },
+    {
+      id: 'cheetos',
+      nev: 'Cheetos Japan Steak Flavor Chips 90g',
+      image: './assets/chipsImg/Cheetos Japan Steak Flavor Chips 90g.jpg',
+      leiras: 'A Cheetos Japan Steak Flavor Chips egy különleges, japán steak ízvilágát idéző kukoricás snack, amely a hagyományos japán marhahús zamatos, fűszeres ízét kombinálja a Cheetos jellegzetes ropogós textúrájával.',
+      ar: 1690,
       darab: 1
     },
     {

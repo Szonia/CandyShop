@@ -1,19 +1,21 @@
 .bazooka-lista {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: space-between;
   }
   
   .bazooka-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-evenly;  
+    flex-direction: column;
+    align-items: center;
+    width: 30%; 
+    text-align: center;  
   }
   
   .bazooka-card {
-    width: 30%;  
     text-align: center;
     background-color: #fff;
     padding: 15px;

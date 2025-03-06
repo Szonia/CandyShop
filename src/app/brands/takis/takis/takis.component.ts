@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { CartService } from '../../../services/cart/cart.service';
 
 interface takis {
   id: string;
   nev: string;
   image: string;
+  leiras: string;
   ar: number;
   darab: number;
 }
@@ -15,10 +17,10 @@ interface takis {
 })
 export class takisComponent {
   takis: takis[] = [
-    {
-      id: 'takis',
+    { id: 'takis',
       nev: 'Takis Blue Heat Spicy Mexican Chips 92g',
       image: './assets/takis/Takis Blue Heat Spicy Mexican Chips 92g.jpg',
+      leiras: 'A Takis Blue Heat egy rendkívül csípős mexikói chips, amely vibráns kék színben és intenzív, pikáns fűszerezésben tündököl, lime és chili paprika keverékével kínálva egy merész és tűzforró ízélményt.',
       ar: 1990,
       darab: 1
     },
@@ -26,13 +28,14 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Guacamole Mexico 70g',
       image: './assets/takis/Takis Guacamole Mexico 70g.jpg',
+      leiras: 'A Takis Guacamole Mexico egy csípős, guacamole ízesítésű kukoricás tortilla chips, amely valódi avokádó és fűszerkeverék felhasználásával készül, intenzív mexikói ízvilágot és enyhe csípősséget kínálva.',
       ar: 1390,
       darab: 1
     },
-    {
-      id: 'takis',
+    { id: 'takis',
       nev: 'Takis Queso Volcano Chips 90g',
       image: './assets/takis/Takis Queso Volcano Chips 90g.jpg',
+      leiras: 'A Takis Queso Volcano Chips egy intenzív, csípős sajtos tortilla chips, amely a sajt és chili fűszerek tűzforró kombinációját kínálja, vulkanikus ízvilágot teremtve egyetlen harapásban.',
       ar: 1690,
       darab: 1
     },
@@ -40,6 +43,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Fuego Hot Chips 90g',
       image: './assets/takis/Takis Fuego Hot Chips 90g.jpg',
+      leiras: 'A Takis Fuego Hot Chips egy rendkívül csípős mexikói tortilla chips, amely a chili és lime tűzforró kombinációjával kínál intenzív, pikáns ízélményt, csavart taco formában, a mexikói konyha szenvedélyes karakterét idézve.',
       ar: 1690,
       darab: 1
     },
@@ -47,6 +51,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Nitro 113g',
       image: './assets/takis/Takis Nitro 113g.jpg',
+      leiras: 'Intenzív habanero chili ízesítésű tekercs, fekete-piros csomagolásban, enyhén füstös aromával.',
       ar: 1990,
       darab: 1
     },
@@ -54,6 +59,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Crunchy Fajita 92g',
       image: './assets/takis/Takis Crunchy Fajita 92g.jpg',
+      leiras: 'Taco fűszerezésre emlékeztető ízvilágú tekercs, köménymagos aromával és enyhe savanyú utóízzel.',
       ar: 2363,
       darab: 1
     },
@@ -61,6 +67,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Dragon Sweet Chili 90g',
       image: './assets/takis/Takis Dragon Sweet Chili 90g.jpg',
+      leiras: 'Édes-csípős ízesítésű tekercs, amely a Sweet Chili Doritos rajongóinak is ízleni fog.',
       ar: 1990,
       darab: 1
     },
@@ -68,6 +75,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Intense Nacho 92g',
       image: './assets/takis/Takis Intense Nacho 92g.jpg',
+      leiras: 'Sajtos ízesítésű, nem csípős változat, amely a klasszikus nachos ízét idézi.',
       ar: 2190,
       darab: 1
     },
@@ -75,6 +83,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Zombie 92g',
       image: './assets/takis/Takis Zombie 92g.jpg',
+      leiras: 'Habanero és uborka ízesítésű tekercs, fekete-zöld csomagolásban.',
       ar: 1990,
       darab: 1
     },
@@ -82,6 +91,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Waves Fuego 190g',
       image: './assets/takis/Takis Waves Fuego 190g.jpg',
+      leiras: 'Hullámos burgonyachips változat a klasszikus Fuego ízesítéssel.',
       ar: 1473,
       darab: 1
     },
@@ -89,6 +99,7 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Hot Nuts Fuego 90g',
       image: './assets/takis/Takis Hot Nuts Fuego 90g.jpg',
+      leiras: 'Ropogós kukoricabevonattal ellátott földimogyoró, a Fuego ízesítéssel.',
       ar: 1490,
       darab: 1
     },
@@ -96,15 +107,19 @@ export class takisComponent {
       id: 'takis',
       nev: 'Takis Stix Fuego 280g',
       image: './assets/takis/Takis Stix Fuego 280g.jpg',
+      leiras: 'Vékony kukorica rudacskák a klasszikus Fuego ízesítéssel, intenzívebb chili és lime aromával.',
       ar: 1513,
       darab: 1
     }
   ];
 
   
-  kosarbaRak(i: number) {
-    const termek = this.takis[i];
-    console.log(`${termek.nev} ${termek.darab} db került a kosárba.`);
-    
-  }
+  constructor(private cartService: CartService) {}
+  
+    kosarbaRak(i: number) {
+      const termek = this.takis[i];
+      this.cartService.addToCart(termek.id, termek.nev, termek.ar);
+      console.log(`"${termek.nev}" hozzáadva a kosárhoz.`);
+      console.log('Kosár tartalma:', this.cartService.getCartItems());
+    }
 }

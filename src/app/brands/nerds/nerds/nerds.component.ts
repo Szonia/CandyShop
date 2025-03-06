@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { CartService } from '../../../services/cart/cart.service';
 
 interface nerds {
   id: string;
   nev: string;
   image: string;
+  leiras: string;
   ar: number;
   darab: number;
 }
@@ -19,6 +21,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Gummy Clusters Very Berry 142g',
       image: './assets/nerds/Nerds Gummy Clusters Very Berry 142g.jpg',
+      leiras: 'A Nerds Gummy Clusters Very Berry egy egyedi textúrájú cukorka, amely bogyós gyümölcsök intenzív ízvilágát kínálja, apró NERDS cukorkákkal kombinálva, így biztosítva egy roppanós és gyümölcsös édességélményt.',
       ar: 2190,
       darab: 1
     },
@@ -26,6 +29,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Gummy Clusters 141g',
       image: './assets/nerds/Nerds Gummy Clusters 141g.jpg',
+      leiras: 'A Nerds Gummy Clusters egy egyedi textúrájú cukorka, amely Rainbow ízben készül, ahol a külső ropogós NERDS cukorkák egy puha gumicukor magot borítanak, kínálva egy intenzív, gyümölcsös ízvilágot szőlő, cseresznye és narancs aromákkal.',
       ar: 1990,
       darab: 1
     },
@@ -33,6 +37,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Gummy Clusters Theater Box 85g',
       image: './assets/nerds/Nerds Gummy Clusters Theater Box 85g.jpg',
+      leiras: 'A Nerds Gummy Clusters Theater Box egy egyedi textúrájú cukorka, amely Rainbow ízben készül, ahol a külső ropogós NERDS cukorkák egy puha gumicukor magot borítanak, kínálva egy intenzív, gyümölcsös ízvilágot szőlő, cseresznye és narancs aromákkal.',
       ar: 1490,
       darab: 1
     },
@@ -40,6 +45,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Candy Grape and Strawberry 142g',
       image: './assets/nerds/Nerds Candy Grape and Strawberry 142g.jpg',
+      leiras: 'A Nerds Candy Grape and Strawberry egy klasszikus, két külön rekeszben kínált cukorka, amely az intenzív, édeskés szőlő és a friss, gyümölcsös eper ízét kombinálja apró, ropogós cukorkaszemekben.',
       ar: 1490,
       darab: 1
     },
@@ -47,6 +53,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Gummy Clusters Very Berry Share Pouch 85g',
       image: './assets/nerds/Nerds Gummy Clusters Very Berry Share Pouch 85g.jpg',
+      leiras: 'A Nerds Gummy Clusters Very Berry Share Pouch egy egyedi textúrájú cukorka, amely bogyós gyümölcsök intenzív ízvilágát kínálja, ahol a puha gumicukor magot apró, ropogós NERDS cukorkák borítják, létrehozva egy komplex és élménydús édességet.',
       ar: 1690,
       darab: 1
     },
@@ -54,6 +61,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Big Chewy Theater Box 120g',
       image: './assets/nerds/Nerds Big Chewy Theater Box 120g.jpg',
+      leiras: 'A Nerds Big Chewy Theater Box egy egyedi textúrájú cukorka, amely ropogós NERDS héjjal és puha, gyümölcsös ízű (szőlő és eper) belsővel rendelkezik, kínálva egy komplex és élménydús édességet.',
       ar: 1430,
       darab: 1
     },
@@ -61,6 +69,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Frosty Fruit Candy 141g',
       image: './assets/nerds/Nerds Frosty Fruit Candy 141g.jpg',
+      leiras: 'A Nerds Frosty Fruit Candy egy karácsonyi különkiadású cukorka, amely görögdinnye, vadcseresznye és puncs ízeket tartalmaz, apró, ropogós cukorkaszemekben, amelyek élénk színekkel és intenzív gyümölcsös ízvilággal kínálnak ünnepi édességélményt.',
       ar: 1690,
       darab: 1
     },
@@ -68,6 +77,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Wonka Nerds Grape And Strawberry 47g',
       image: './assets/nerds/Wonka Nerds Grape And Strawberry 47g.jpg',
+      leiras: 'A Wonka Nerds Grape And Strawberry egy klasszikus, két rekeszben kínált apró, ropogós cukorka, amely az egyik oldalon intenzív szőlő, a másikon édes eper ízű, lehetővé téve a fogyasztónak, hogy külön-külön vagy keverve élvezze a két gyümölcsös ízt.',
       ar: 990,
       darab: 1
     },
@@ -75,6 +85,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Fruits Candy 142g',
       image: './assets/nerds/Nerds Fruits Candy 142g.jpg',
+      leiras: 'A Nerds Fruits Candy egy színes, ropogós cukorka, amely többféle gyümölcsös ízt (például eper, szőlő, cseresznye, dinnye és narancs) kínál apró, változatos formájú és méretű cukorkaszemekben, intenzív és izgalmas ízélményt nyújtva.',
       ar: 1490,
       darab: 1
     },
@@ -82,6 +93,7 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Nerds Watermelon And Cherry 47g',
       image: './assets/nerds/Nerds Watermelon And Cherry 47g.jpg',
+      leiras: 'A Nerds Watermelon And Cherry egy kétrekeszes, ropogós cukorka, amely az egyik oldalon friss, nyári görögdinnye, a másikon pedig édes és intenzív cseresznye ízű apró cukorkaszemeket kínál, lehetővé téve a fogyasztónak, hogy külön-külön vagy keverve élvezze a két gyümölcsös ízt.',
       ar: 990,
       darab: 1
     },
@@ -89,15 +101,19 @@ export class nerdsComponent {
       id: 'nerds',
       nev: 'Wonka Nerds Rope Rainbow Candy 26g',
       image: './assets/nerds/Wonka Nerds Rope Rainbow Candy 26g.jpg',
+      leiras: 'A Wonka Nerds Rope Rainbow Candy egy színes, gumicukor alapú édesség, amelyet különböző ízű (szőlő, eper, citrom, narancs és egyéb gyümölcsös) apró, ropogós Nerds cukorkák borítanak, így kínálva egy komplex, többrétegű ízélményt.',
       ar: 990,
       darab: 1
     }
   ];
 
   
-  kosarbaRak(i: number) {
-    const termek = this.nerds[i];
-    console.log(`${termek.nev} ${termek.darab} db került a kosárba.`);
-    
-  }
+  constructor(private cartService: CartService) {}
+  
+    kosarbaRak(i: number) {
+      const termek = this.nerds[i];
+      this.cartService.addToCart(termek.id, termek.nev, termek.ar);
+      console.log(`"${termek.nev}" hozzáadva a kosárhoz.`);
+      console.log('Kosár tartalma:', this.cartService.getCartItems());
+    }
 }

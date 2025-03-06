@@ -29,7 +29,7 @@ export class SavanyuUditokComponent {
       id: 'warheads',
       nev: 'WarHeads Sour Black Cherry Soda 355ml',
       image: './assets/uditokImg/WarHeads Sour Black Cherry Soda 355ml.jpg',
-      leiras: '',
+      leiras: 'A WarHeads Sour Black Cherry Soda egy intenzíven savanyú, fekete cseresznye ízű szénsavas üdítőital, amely a WarHeads cukorkák jellegzetes, arcfintorító savanyúságát ötvözi a gyümölcsös ízzel, egyedi és merész ízélményt nyújtva.',
       ar: 990,
       darab: 1
     },
@@ -37,7 +37,7 @@ export class SavanyuUditokComponent {
       id: 'warheads',
       nev: 'Warheads Blue Raspberry Soda 355ml',
       image: './assets/uditokImg/Warheads Blue Raspberry Soda 355ml.jpg',
-      leiras: '',
+      leiras: 'A Warheads Blue Raspberry Soda egy intenzíven savanyú, kék málna ízű szénsavas üdítőital, amely ötvözi a Warheads cukorkák jellegzetes, arcfintorító savanyúságát a gyümölcsös ízzel, egyedi és merész ízélményt nyújtva.',
       ar: 990,
       darab: 1
     },
@@ -45,7 +45,7 @@ export class SavanyuUditokComponent {
       id: 'warheads',
       nev: 'WarHeads Sour Green Apple Soda 355ml',
       image: './assets/uditokImg/WarHeads Sour Green Apple Soda 355ml.jpg',
-      leiras: '',
+      leiras: 'A WarHeads Sour Green Apple Soda egy intenzíven savanyú, zöldalma ízű szénsavas üdítőital, amely ötvözi a WarHeads cukorkák jellegzetes, arcfintorító savanyúságát a frissítő almaízzel, egyedi és merész ízélményt nyújtva.',
       ar: 990,
       darab: 1
     },
@@ -53,7 +53,7 @@ export class SavanyuUditokComponent {
       id: 'warheads',
       nev: 'Warheads Sour Watermelon Soda 355ml',
       image: './assets/uditokImg/Warheads Sour Watermelon Soda 355ml.jpg',
-      leiras: '',
+      leiras: 'A Warheads Sour Watermelon Soda egy intenzíven savanyú, görögdinnye ízű szénsavas üdítőital, amely ötvözi a Warheads cukorkák jellegzetes, arcfintorító savanyúságát a frissítő görögdinnye ízével, egyedi és merész ízélményt nyújtva.',
       ar: 990,
       darab: 1
     },
@@ -61,7 +61,7 @@ export class SavanyuUditokComponent {
       id: 'warheads',
       nev: 'Warheads Sour peach soda 355ml',
       image: './assets/uditokImg/Warheads Sour peach soda 355ml.jpg',
-      leiras: '',
+      leiras: 'A Warheads Sour Peach Soda egy intenzíven savanyú, őszibarack ízű szénsavas üdítőital, amely ötvözi a Warheads cukorkák jellegzetes, arcfintorító savanyúságát az édes őszibarack zamatával, egyedi és merész ízélményt nyújtva.',
       ar: 990,
       darab: 1
     },
@@ -69,7 +69,7 @@ export class SavanyuUditokComponent {
       id: 'fanta',
       nev: 'Fanta Lemon Soda 330ml',
       image: './assets/uditokImg/Fanta Lemon Soda 330ml.jpg',
-      leiras: '',
+      leiras: 'A Fanta Lemon Soda egy frissítő citrusos üdítőital, amely a zamatos citrom savanykás és élénkítő ízét kínálja, tökéletes egyensúlyt teremtve az édesség és a citrusos frissesség között.',
       ar: 480,
       darab: 1
     },
@@ -77,7 +77,7 @@ export class SavanyuUditokComponent {
       id: 'fanta',
       nev: 'Fanta Lime 500ml',
       image: './assets/uditokImg/Fanta Lime 500ml.jpg',
-      leiras: '',
+      leiras: 'A Fanta Lime egy frissítően citrusos, élénk lime ízű szénsavas üdítőital, amely tökéletes egyensúlyt teremt az édes és savanykás ízek között.',
       ar: 1280,
       darab: 1
     },
@@ -85,7 +85,7 @@ export class SavanyuUditokComponent {
       id: 'skittles',
       nev: 'Skittles Drink Sour 414ml',
       image: './assets/uditokImg/Skittles Drink Sour 414ml.jpg',
-      leiras: '',
+      leiras: 'A Skittles Drink Sour egy merész és izgalmas üdítőital, amely a Skittles Sour cukorkák intenzív, savanyú-édes ízvilágát idézi, ötvözve a citrom, zöldalma, eper, szőlő és mandarin fanyar és frissítő ízeit egy stimuláló italban.',
       ar: 1790,
       darab: 1
     },
@@ -93,7 +93,7 @@ export class SavanyuUditokComponent {
       id: 'ghost',
       nev: 'Ghost Hydration Drink Sour Patch Kids 500ml',
       image: './assets/uditokImg/Ghost Hydration Drink Sour Patch Kids 500ml.jpg',
-      leiras: '',
+      leiras: 'A Ghost Hydration Drink Sour Patch Kids egy egyedi, savanyú cukorkák által inspirált üdítőital, amely ötvözi a Sour Patch Kids cukorkák jellegzetes savanyú-édes ízprofilját egy frissítő és hidratáló formulával.',
       ar: 2990,
       darab: 1
     },
@@ -101,7 +101,7 @@ export class SavanyuUditokComponent {
       id: 'ghost',
       nev: 'Ghost Hydration Drink Orange Squeeze 500ml',
       image: './assets/uditokImg/Ghost Hydration Drink Orange Squeeze 500ml.jpg',
-      leiras: '',
+      leiras: 'Frissítő, lédús narancsos íz enyhe savanykás utóízzel.',
       ar: 7411,
       darab: 1
     },
@@ -109,7 +109,7 @@ export class SavanyuUditokComponent {
       id: 'ghost',
       nev: 'Ghost Hydration Drink Lemon Lime 500ml',
       image: './assets/uditokImg/Ghost Hydration Drink Lemon Lime 500ml.jpg',
-      leiras: '',
+      leiras: 'Kiegyensúlyozott, üdítő citrom-lime ízkombináció kellemes savanyú beütéssel.',
       ar: 7411,
       darab: 1
     },
@@ -117,7 +117,7 @@ export class SavanyuUditokComponent {
       id: 'ghost',
       nev: 'Ghost Hydration Drink Sour Pink Lemonade 500ml',
       image: './assets/uditokImg/Ghost Hydration Drink Sour Pink Lemonade 500ml.jpg',
-      leiras: '',
+      leiras: 'Savanykás rózsaszín limonádé íz, frissítő citrusos aromával.',
       ar: 7411,
       darab: 1
     },
@@ -125,7 +125,7 @@ export class SavanyuUditokComponent {
       id: 'ghost',
       nev: 'Ghost Energy Drink, Warheads Sour Watermelon 500ml',
       image: './assets/uditokImg/Ghost Energy Drink, Warheads Sour Watermelon 500ml.jpg',
-      leiras: '',
+      leiras: 'Intenzív, savanyú görögdinnye ízű energiaital, amely a népszerű Warheads cukorka jellegzetes, csípős-savanyú aromáját idézi, frissítő és energizáló élményt nyújtva.',
       ar: 7411,
       darab: 1
     }
